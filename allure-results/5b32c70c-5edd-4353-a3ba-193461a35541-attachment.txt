@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#user-name\"}\n  (Session info: chrome=111.0.5563.147)",
+  "stacktrace": "Backtrace:\n\t(No symbol) [0x0114DCE3]\n\t(No symbol) [0x010E39D1]\n\t(No symbol) [0x00FF4DA8]\n\t(No symbol) [0x0102019F]\n\t(No symbol) [0x010203AB]\n\t(No symbol) [0x0104EE62]\n\t(No symbol) [0x0103AF14]\n\t(No symbol) [0x0104D57C]\n\t(No symbol) [0x0103ACC6]\n\t(No symbol) [0x01016F68]\n\t(No symbol) [0x010180CD]\n\tGetHandleVerifier [0x013C3832+2506274]\n\tGetHandleVerifier [0x013F9794+2727300]\n\tGetHandleVerifier [0x013FE36C+2746716]\n\tGetHandleVerifier [0x011F6690+617600]\n\t(No symbol) [0x010EC712]\n\t(No symbol) [0x010F1FF8]\n\t(No symbol) [0x010F20DB]\n\t(No symbol) [0x010FC63B]\n\tBaseThreadInitThunk [0x758F7D49+25]\n\tRtlInitializeExceptionChain [0x7727B74B+107]\n\tRtlClearBits [0x7727B6CF+191]\n"
+}
