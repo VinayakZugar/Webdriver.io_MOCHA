@@ -1,4 +1,7 @@
 class HomePom {
+    get remove(){
+        return $('#remove-sauce-labs-backpack')
+    }
     get addtocart() {
         return $('#add-to-cart-sauce-labs-bike-light')
     }
@@ -13,6 +16,9 @@ class HomePom {
     }
     get prods() {
         return $('.shopping_cart_badge')
+    }
+    async removeProd(){
+        await this.remove.click()
     }
     async intocartclick() {
         await this.intocart.click()
