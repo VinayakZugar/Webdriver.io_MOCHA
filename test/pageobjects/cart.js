@@ -1,27 +1,27 @@
-class cartPom{
-    get inventoryitem(){
+class cartPom {
+    get inventoryitem() {
         return $('#item_4_title_link')
     }
-    get remove(){
+    get remove() {
         return $('#remove-sauce-labs-backpack')
     }
-    get continueShop(){
+    get continueShop() {
         return $('#continue-shopping')
     }
 
-    get checkout(){
+    get checkout() {
         return $('#checkout')
     }
-    async continueShopclick(){
+    async continueShopclick() {
         await this.continueShop.click()
     }
-    async checkout_click(){
+    async checkout_click() {
         await this.checkout.click()
     }
-    async checkoutclick(){
+    async checkoutclick() {
         await this.continueShop.click()
     }
-    async removecheckout(){
+    async removecheckout() {
         await this.remove.click()
     }
 }
